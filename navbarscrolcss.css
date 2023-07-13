@@ -1,0 +1,73 @@
+#main {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+
+#navMenu {
+  background: #222;
+  position: relative;
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+}
+#navMenu #navMenu-wrapper {
+  overflow: hidden;
+  height: 60px;
+  padding: 0 30px;
+}
+#navMenu-items {
+  margin: 1px 20px;
+  padding: 1px 0;
+  list-style: none;
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+#menuSelector {
+  position: relative;
+  margin-left: -5px;
+  top: -1px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #EFEBE8;
+}
+#navMenu ul li {
+    display: inline-block;
+    height: 60px;
+    margin: 0px;
+    box-shadow: 1px 0px 0px rgb(51, 51, 51) inset;
+    border-left: 1px solid rgb(0, 0, 0);
+}
+#navMenu ul li a {
+    color: #FAFAFA;
+    padding: 0px 15px !important;
+    line-height: 44px;
+}
+.slick-prev, .icon-chevronleft { transform: rotate(180deg); }
+.icon-chevronleft, .icon-chevronright {
+  background-image: url('http://www.jqueryscript.net/demo/Responsive-Scrolling-Navigation-Menu-With-jQuery-jQuery-UI/arrow.png');
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+.navMenu-paddle-left, .navMenu-paddle-right {
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  top: 20px;
+  background-color: transparent;
+  width: 25px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slick-prev, .navMenu-paddle-left { left: 0; }
+.arrow {
+  width: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slick-next, .navMenu-paddle-right { right: 0; }
